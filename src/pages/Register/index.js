@@ -15,13 +15,13 @@ const Register = () => {
                     <Gap />
                     <form>
                         <Input placeholder="Name"/>
-                        <Gap height={20}/>
+                        <Gap height={30}/>
                         <Input placeholder="Email"/>
-                        <Gap height={20}/>
+                        <Gap height={30}/>
                         <Input placeholder="Password"/>
+                        <Gap  height={30}/>
                         <Gap  height={20}/>
-                        <Gap  height={20}/>
-                        <Button label="Login" />
+                        <Button label="Register" />
                         <Gap height={10} />
                         <Link text1="Have a account ? " text2="Login" />
                     </form>
