@@ -1,9 +1,9 @@
 import React from 'react'
 import "./link.css";
 
-const Link = ({text1 , text2 , onClick}) => {
+const Link = ({text1 , text2 , ...rest}) => {
     return (
-        <p>
+        <p {...rest}>
             {text1} 
             <span>
                 {text2}

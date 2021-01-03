@@ -1,0 +1,25 @@
+.header {
+    background-color: #010023;
+}
+
+.container-wrapper {
+    width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.container-wrapper h1 {
+    color: #4896F2;
+}
+
+button {
+    letter-spacing: 1px;
+    font-size: 16px;
+    font-family: "Roboto" , sans-serif;
+    border-radius: 5px;
+    font-weight: lighter;
+}

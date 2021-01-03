@@ -1,10 +1,10 @@
 import React from 'react'
 import "./input.css";
 
-const Input = ({...rest}) => {
+const Input = ({width , height , ...rest}) => {
     return (
         <div>
-            <input {...rest} />
+            <input style={{width , height}} {...rest} />
         </div>
     )
 }

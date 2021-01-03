@@ -3,10 +3,7 @@ button {
     height: 50px;
     color: white;
     border: none;
-    background-color: #1665D8;
-    letter-spacing: 2px;
-    font-size: 16px;
-    font-weight: bold;
+    cursor: pointer;
 }
 
 button:focus {
