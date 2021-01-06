@@ -1,23 +1,30 @@
 import React, { Fragment } from 'react'
-import { Gap } from '../../components';
+import { Gap, HeaderAzah } from '../../components';
 import "./home.css";
-import {Header} from "../../components";
-import {useHistory} from "react-router-dom";
 
 const Home = () => {
-    const history = useHistory();
     return (
         <Fragment>
-            <Header labelHeader="RecoViso" bgColor="#4896F2" labelBtn="Login" onClick={() => history.push('login')} />
+            <HeaderAzah labelHeader="Recoviso"/>
             <div className="home">
-            <div className="container">
-                <Gap height={30}/>
-                <h1>A Powerfull Face Recognition App</h1>
-                <Gap height={20} />
-                <h3>You can easily use this application by simply filling in 
-                    the image link that you have
+                <div className="container">
+                    <h1>A Powerfull Face Recognition App</h1>
+                    <Gap height={40} />
+                    <h3>You can easily use this application by simply filling in 
+                        the image link that you have
                     </h3>
-            </div>
+                    <Gap height={40} />
+                    
+                    <div className="tombolLink">
+                        <a href="http://localhost:3000/login">
+                            <button className="login">Login</button>
+                        </a>
+                        <a href="http://localhost:3000/register">
+                            <button className="register">Register</button>
+                        </a>
+                    </div>
+                    
+                </div>
             </div>
         </Fragment>
     )

@@ -9,14 +9,10 @@
 
 .container {
     width: 80%;
-    height: 85%;
     box-sizing: border-box;
-    margin: auto;
     display: flex;
     justify-content: center;
-    align-items: center;
     flex-direction: column;
-    object-fit: cover;
 }
 
 .container h1 {
@@ -30,4 +26,28 @@
     width: 40%;
     color: white;
     opacity: 50%;
+}
+
+.tombolLink {
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.tombolLink a {
+    text-decoration: none;
+    width: 40%;
+}
+
+.tombolLink a button {
+    height: 70px;
+}
+
+.tombolLink a .register {
+    background-color: transparent;
+    border: 2px solid #4896F2;
+}
+
+.tombolLink a .login {
+    background-color: #4896F2;
 }

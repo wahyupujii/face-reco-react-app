@@ -44,7 +44,7 @@ function onImageChange(event) {
         let imageLocal = URL.createObjectURL(imgLocal);
         const img = document.querySelector('.showImg');
         img.setAttribute('src' , imageLocal);
-        // console.log(imgLocal);
+        console.log(imageLocal);
     }
 }
 
