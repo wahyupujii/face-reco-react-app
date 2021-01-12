@@ -1,10 +1,8 @@
 import React from 'react'
 import "./header.css";
 import { Button } from '../../atoms'
-import {useHistory} from "react-router-dom";
 
 const Header = ({labelHeader , bgColor , labelBtn , ...rest}) => {
-    const history = useHistory();
     return (
         <div className="header" >
             <div className="container-wrapper" >

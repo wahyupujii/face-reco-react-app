@@ -2,7 +2,6 @@ import React from 'react'
 import { BrowserRouter as Router, Switch , Route} from 'react-router-dom'
 import FaceReco from '../FaceReco'
 import Home from '../Home'
-import {Header} from "../../components";
 import "./main.css";
 import Login from '../Login';
 import Register from '../Register';
