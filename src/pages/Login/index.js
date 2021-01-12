@@ -9,7 +9,7 @@ const Login = () => {
     return (
         <div className="main-page">
             <div className="left">
-                <img src={LoginBG} className="bg-image"/>
+                <img src={LoginBG} className="bg-image" alt="" />
             </div>
             <div className="right">
                 <div className="form-login">
