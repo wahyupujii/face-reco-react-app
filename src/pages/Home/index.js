@@ -5,7 +5,7 @@ import "./home.css";
 const Home = () => {
     return (
         <Fragment>
-            <HeaderAzah labelHeader="Recoviso"/>
+            <HeaderAzah labelHeader="RecoViso"/>
             <div className="home">
                 <div className="container">
                     <h1>A Powerfull Face Recognition App</h1>

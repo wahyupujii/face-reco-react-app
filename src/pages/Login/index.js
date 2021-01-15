@@ -4,7 +4,7 @@ import "./login.css";
 import {Button, Gap, Input , Link} from "../../components";
 import {useHistory} from "react-router-dom"; 
 
-const Login = () => {
+const Login = () => {    
     const history = useHistory();
     return (
         <div className="main-page">
@@ -16,9 +16,9 @@ const Login = () => {
                     <h1>Login</h1>
                     <Gap />
                     <form>
-                        <Input placeholder="Email"/>
+                        <Input placeholder="Email" type="email"/>
                         <Gap height={30}/>
-                        <Input placeholder="Password"/>
+                        <Input placeholder="Password" type="password"/>
                         <Gap  height={30}/>
                         <Gap  height={20}/>
                         <Button label="Login" backgroundColor="#4896F2" onClick={() => history.push('/facereco')} />

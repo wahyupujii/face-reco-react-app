@@ -16,11 +16,11 @@ const Register = () => {
                     <h1>Register</h1>
                     <Gap />
                     <form>
-                        <Input placeholder="Name"/>
+                        <Input placeholder="Name" type="text"/>
                         <Gap height={30}/>
-                        <Input placeholder="Email"/>
+                        <Input placeholder="Email" type="email"/>
                         <Gap height={30}/>
-                        <Input placeholder="Password"/>
+                        <Input placeholder="Password" type="password"/>
                         <Gap  height={30}/>
                         <Gap  height={20}/>
                         <Button label="Register" backgroundColor="#4896F2" onClick={() => history.push('/facereco')} />
